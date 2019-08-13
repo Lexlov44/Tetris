@@ -249,16 +249,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e644bfbe11e06be4fa2d5910068930b2, type: 3}
+  m_Script: {fileID: 11500000, guid: 87c866c3c81fcda42a812ef9dacbb844, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
   speed: 1
-  mnoj_score: 0
-  TextScore: {fileID: 1028867340}
-  TextSpeed: {fileID: 1862356559}
-  TextCof: {fileID: 1671423935}
-  block: {fileID: 4358473100164022585, guid: 520579be2a14e0e459c32d48a71a7d92, type: 3}
+  factorScore: 0
+  TextScore: {fileID: 1028867342}
+  TextSpeed: {fileID: 1862356561}
+  TextFactor: {fileID: 1671423937}
+  Block: {fileID: 1420613846765222894, guid: 17e663c547aa2454590e55882f4ca23a, type: 3}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -269,7 +269,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.36565503, g: 0.58666337, b: 0.9339623, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -385,7 +385,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Score: 0'
+  m_Text: "\u043E\u0447\u043A\u0438"
 --- !u!222 &1028867343
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -473,7 +473,7 @@ GameObject:
   - component: {fileID: 1671423938}
   - component: {fileID: 1671423937}
   m_Layer: 5
-  m_Name: CofText
+  m_Name: TextFactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -495,7 +495,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -158.10004, y: 106.46}
+  m_AnchoredPosition: {x: -158.10004, y: 106.45999}
   m_SizeDelta: {x: 289.09998, y: 29.699997}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1671423937
@@ -531,7 +531,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Cof: 0'
+  m_Text: "\u043A\u043E\u044D\u0444\u0444\u0438\u0446\u0438\u0435\u043D\u0442"
 --- !u!222 &1671423938
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -610,7 +610,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Speed: 0'
+  m_Text: "\u0441\u043A\u043E\u0440\u043E\u0441\u0442\u044C"
 --- !u!222 &1862356562
 CanvasRenderer:
   m_ObjectHideFlags: 0
